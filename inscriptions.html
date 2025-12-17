@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Inscriptions à l'événement</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="evenement.html">Événement</a></li>
+            <li><a href="programme.html">Programme</a></li>
+            <li><a href="pratiques.html">Infos pratiques</a></li>
+            <li><a href="inscriptions.html">Inscriptions</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <h1>Inscriptions à l’événement sportif</h1>
+
+    <section>
+        <p>
+            Pour participer à l’événement, merci de remplir le formulaire ci-dessous.
+            L’inscription est gratuite et ouverte à l’ensemble des étudiants de l’université.
+        </p>
+    </section>
+
+    <section>
+        <form>
+            <label for="nom">Nom :</label><br>
+            <input type="text" id="nom" name="nom" required><br><br>
+
+            <label for="prenom">Prénom :</label><br>
+            <input type="text" id="prenom" name="prenom" required><br><br>
+
+            <label for="email">Adresse e-mail :</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="discipline">Discipline souhaitée :</label><br>
+            <select id="discipline" name="discipline">
+                <option>Basket-ball</option>
+                <option>Football à 5</option>
+                <option>Volley-ball</option>
+                <option>Autre</option>
+            </select><br><br>
+
+            <input type="submit" value="S'inscrire">
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>Projet universitaire – M2 STAPS MOS</p>
+</footer>
+
+</body>
+</html>

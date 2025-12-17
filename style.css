@@ -1,0 +1,97 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* En-tête et navigation */
+header {
+    background-color: #1e3d59;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Contenu principal */
+main {
+    padding: 30px;
+}
+
+h1 {
+    color: #1e3d59;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+    margin-top: 25px;
+}
+
+/* Sections */
+section {
+    max-width: 900px;
+    margin: 0 auto 30px auto;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Formulaire */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+/* Bouton */
+input[type="submit"] {
+    margin-top: 15px;
+    background-color: #1e3d59;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #163046;
+}
+
+/* Pied de page */
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
